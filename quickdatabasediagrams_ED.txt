@@ -39,4 +39,4 @@ Title
 emp_no int pk FK >- Salaries.emp_no
 title  varchar pk
 from_date date pk
-to_date
+to_date date
