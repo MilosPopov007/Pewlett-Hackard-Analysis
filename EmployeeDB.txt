@@ -36,6 +36,6 @@ to_date
 Title
 -
 emp_no int pk FK >- Salaries.emp_no
-title
-from_date
+title pk
+from_date pk
 to_date
