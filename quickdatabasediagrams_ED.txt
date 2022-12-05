@@ -2,7 +2,7 @@
 Departments
 -
 dept_no varchar pk
-ept_name varchar
+dept_name varchar
  
 Employees
 -
