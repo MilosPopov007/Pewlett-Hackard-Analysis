@@ -14,3 +14,13 @@ The first step in handling this vast amount of data was to import actual employe
 [PH-EmployeeDB](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/schema.sql) was created and initial queries where performed on existind data.
 
 [Queries](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/queries.sql) included filtering the data, determining eligibility for retirement, counting number of employees eligible for retirement, determining current number of employees with the company, creating new tables with filterer data, joining tables (departments) to get precise data on selected queries and exporting data to the new created tables (CVS files).
+
+[The Number of Retiring Employees by Title](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql) querie as one of the steps in data analysis included :
+* Retrieving  the data from  the Employees table and  Titles table
+* Creating  a new table using the INTO clause and  joining both tables on the primary key
+* Filtering  the data in the birth_date column to retrieve the employees who were born between 1952 and 1955, then order by the employee number
+* Using the DISTINCT ON statement to remove these duplicates and keep only the most recent title of each employee
+* Exclude those employees that have already left the company by filtering on to_date to keep only those with a current employment date
+* Create a Unique Titles table as a final query result and export the data to csv file
+
+[The Employees Eligible for the Mentorship Program](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql)
