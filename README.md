@@ -23,9 +23,15 @@ The first step in handling this vast amount of data was to import actual employe
 * Exclude those employees that have already left the company by filtering on to_date to keep only those with a current employment date
 * Create a Unique Titles table as a final query result and export the data to csv file
 
+![This is an image](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/The_Number_Retiring_%20Employees_by_Title.png)
+
 [The Employees Eligible for the Mentorship Program](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql) was created by Pewlett-Hackard as a way for experienced and successful employees to step back into a part-time role instead of retiring completely. Their new role in the company would be as a mentor to the newly hired employees. Before they can present their idea to the CEO, they'd like to have an idea of how many people between the departments they would need to pitch their idea to. Major points from this query include :
 * Using  SELECT DISTINCT ON statement to retrieve date from targeted tables
 * Using a JOIN function to merge tables on specific key
 * Applynig  WHERE condition to filter the data
 * Creating new table to store our selected data
 
+
+![This is an image](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/Mentorship_Eligibility.png)
+
+### Summary
