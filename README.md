@@ -9,4 +9,5 @@ This will be our base point for future data analysis and upcoming tasks.
 
 ![This is an image](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
+The first step in handling this vast amount of data was to import actual employee data records from the CVS file  in order to perform SQL queries that will give us a clear picture of current employees and actions that HR needs to take in order to prepare  for the “silver tsunami” (many current employees reaching retirement age).
 
