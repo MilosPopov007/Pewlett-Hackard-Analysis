@@ -35,5 +35,7 @@ The first step in handling this vast amount of data was to import actual employe
 ![This is an image](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/Mentorship_Eligibility.png)
 
 ### Summary
+
+[Summary_Querie](https://github.com/MilosPopov007/Pewlett-Hackard-Analysis/blob/main/Queries/Summary_Querie.sql)
 * If we look at the number of Hackard-Analysis employee we need to replace, we get a substantial number of employees leaving the company (72,458), compared to the total number of current employees.
 * Current  Mentorship Program counts 1549 most experienced employees, which  bring us to conclusion that we need to expand our Mentorship eligibility.
